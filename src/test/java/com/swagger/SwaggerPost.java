@@ -21,7 +21,7 @@ public class SwaggerPost {
 //		//.body("name", )
 //		.body("")
 	 
-	}
+//	}
 
 	@When("I send a post req with vaild user id")
 	public void i_send_a_post_req_with_vaild_user_id() {
