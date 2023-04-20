@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 	features ="src/test/resources/BddFeature",
 	glue= {"com.bdd"},
 	tags="@tag1",
-	plugin = {"json:target/cucumber.json"}
+	plugin = {"html:target/site/cucumber-pretty","json:target/cucumber.json"}
 )
 public class BddRunner {
 	
