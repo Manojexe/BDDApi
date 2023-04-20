@@ -51,6 +51,8 @@
     <version>2.2</version>
     <scope>test</scope>
 </dependency>
+
+
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -90,6 +92,9 @@
                             <projectName>BddCucumberRestAssured</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <jsonFiles>
+        <param>${project.build.directory}/cucumber.json</param>
+    </jsonFiles>
                         </configuration>
                     </execution>
                 </executions>
